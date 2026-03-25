@@ -1,0 +1,26 @@
+#Python Virtual Environments
+venv/
+env/
+.venv/
+__pycache__/
+
+#Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+#Kaggle API Credentials (NEVER upload this to GitHub!)
+kaggle.json
+
+#Raw Data Files (GitHub blocks files over 100MB, so it's a best practice to ignore data)
+*.csv
+*.zip
+CC GENERAL.csv
+
+#Exported Machine Learning Models (Keep your repo lightweight)
+*.joblib
+cc_scaler.joblib
+cc_pca.joblib
+cc_kmeans.joblib
+
+#OS generated files
+.DS_Store
+Thumbs.db
